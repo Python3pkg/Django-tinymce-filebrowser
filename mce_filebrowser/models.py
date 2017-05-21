@@ -16,4 +16,4 @@ class FileBrowserFile(models.Model):
                                        verbose_name=_('Create date'))
     
     def __unicode__(self):
-        return u'{0}'.format(self.uploaded_file.name)
+        return '{0}'.format(self.uploaded_file.name)
